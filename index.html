@@ -4,45 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khayo Welcome Board</title>
-        <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <h1>Khayo Welcome Board</h1>
 
-       <h1>Khayo Welcome Board</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-    <form id="userForm">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" required>
 
-        <label for="age">Age:</label>
-        <input type="number" id="age" name="age" min="1" required>
+            <button type="submit">Save</button>
+        </form>
 
-        <button type="submit">Save</button>
-    </form>
+        <section id="greeting-section">
+            <h2>Greeting</h2>
+            <p id="greeting">Hello, guest</p>
+        </section>
 
-    <section id="greeting-section">
-        <h2>Greeting</h2>
-        <p id="greeting">Hello, guest</p>
-    </section>
+        <section id="age-section">
+            <h2>Age in Months</h2>
+            <p id="ageInMonths"></p>
+        </section>
 
-    <section id="age-section">
-        <h2>Age in Months</h2>
-        <p id="ageInMonths"></p>
-    </section>
+        <section id="content-section">
+            <h2>Content Access</h2>
+            <p id="accessMessage"></p>
+        </section>
 
-    <section id="content-section">
-        <h2>Content Access</h2>
-        <p id="accessMessage"></p>
-    </section>
-
-    <section id="quote-section">
-        <h2>Motivational Quote</h2>
-        <div id="quotes"></div>
-    </section>
+        <section id="quote-section">
+            <h2>Motivational Quote</h2>
+            <div id="quotes"></div>
+        </section>
 
         <script src="script.js"></script>
-
+    </main>
 </body>
 </html>

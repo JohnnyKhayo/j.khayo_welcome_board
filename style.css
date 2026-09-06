@@ -1,0 +1,77 @@
+
+body {
+    background-color: rgb(232, 236, 228);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 12, 12);
+    margin: 0;
+}
+main {
+    max-width: 80%;
+    margin: 36px auto;
+    padding: 22px 26px 28px;
+    background-color: rgb(252, 250, 245);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(46, 92, 78);
+    margin: 6px 0 18px;
+}
+
+h2 {
+    margin: 0 0 7px;
+    color: rgb(38, 58, 52);
+}
+
+label {
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 9px 11px;
+    box-sizing: border-box;
+    border: 1px solid rgb(168, 176, 164);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
+button {
+    width: 100%;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(46, 92, 78);
+    color: rgb(252, 250, 245);
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(100, 115, 110);
+}
+
+section {
+    margin-bottom: 13px;
+    padding: 14px 16px;
+    border-radius: 7px;
+}
+
+#greeting-section {
+    background-color: rgb(214, 227, 218);
+}
+
+#age-section {
+    background-color: rgb(237, 224, 204);
+}
+
+#content-section {
+    background-color: rgb(224, 214, 196);
+}
+
+#quote-section {
+    background-color: rgb(201, 216, 222);
+}
